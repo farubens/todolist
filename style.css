@@ -1,0 +1,70 @@
+html{
+  padding:0;
+  margin:0;
+}
+body{
+  background-image: url('./images/background.jpg');
+  background-position: center;
+  background-size: auto;
+  margin:0;
+  padding:100px 20px;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  list-style-type: none;
+}
+
+.content{
+  width: 940px;
+  background-color: #fff;
+  border: solid 1px #ccc;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+  height: 350px;  overflow-y: scroll;
+}
+
+.content .campo-todo{
+  width: 60%;
+  height: 40px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  padding-left: 30px;
+  background-color: #f9f9f9;
+  font-family: roboto, sans-serif;
+  font-weight: 700 ;
+  color: #00000080;
+}
+.content img{
+  margin-bottom: 20px;
+  width: 150px;
+}
+.content .botao-todo{
+  width:20%;
+  height: 40px;
+  background-color: #45aadf;
+  border: solid #45aadf;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+}
+.content ul li{
+  background-color: #f4f5f5;
+  margin-top: 5px;
+  padding: 10px 0;
+  color: #282828;
+  font-family: roboto, sans-serif;
+  font-size: 16px;
+}
+.content a{
+  color: #ae3d3d;
+  font-family: roboto, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 15px
+}
